@@ -1,0 +1,450 @@
+[
+    {
+      "context": "In today's class, we learned about the water cycle. The water cycle describes how water evaporates, condenses, and precipitates.",
+      "question": "What are the main processes in the water cycle?",
+      "answers": {
+        "text": ["evaporation, condensation, and precipitation"],
+        "answer_start": [49]
+      }
+    },
+    {
+      "context": "The teacher explained that photosynthesis is the process by which plants make food using sunlight.",
+      "question": "What is photosynthesis?",
+      "answers": {
+        "text": ["the process by which plants make food using sunlight"],
+        "answer_start": [34]
+      }
+    },
+    {
+      "context": "The teacher explained that devolution is the process by which power is transferred from a central government to local governments.",
+      "question": "What is devolution?",
+      "answers": {
+        "text": ["the process by which power is transferred from a central government to local governments"],
+        "answer_start": [34]
+      }
+    },
+    {
+      "context": "Federalism is a system of government in which power is divided between a central authority and constituent political units, such as states or provinces.",
+      "question": "What is federalism?",
+      "answers": {
+        "text": ["a system of government in which power is divided between a central authority and constituent political units"],
+        "answer_start": [14]
+      }
+    },
+    {
+      "context": "Authoritarianism is a form of government characterized by strong central power and limited political freedoms, with little to no constitutional accountability.",
+      "question": "What is authoritarianism?",
+      "answers": {
+        "text": ["a form of government characterized by strong central power and limited political freedoms"],
+        "answer_start": [20]
+      }
+    },
+    {
+      "context": "A parliamentary system is a democratic form of government where the executive branch derives its legitimacy from and is accountable to the legislature.",
+      "question": "What is a parliamentary system?",
+      "answers": {
+        "text": ["a democratic form of government where the executive branch derives its legitimacy from and is accountable to the legislature"],
+        "answer_start": [28]
+      }
+    },
+    {
+      "context": "Separation of powers is a model for governance in which the state's responsibilities are divided among different branches to prevent any one branch from gaining too much power.",
+      "question": "What is separation of powers?",
+      "answers": {
+        "text": ["a model for governance in which the state's responsibilities are divided among different branches to prevent any one branch from gaining too much power"],
+        "answer_start": [27]
+      }
+    },
+    {
+      "context": "Bicameralism refers to a legislative body that has two separate chambers or houses, often designed to provide checks and balances.",
+      "question": "What is bicameralism?",
+      "answers": {
+        "text": ["a legislative body that has two separate chambers or houses"],
+        "answer_start": [23]
+      }
+    },
+    {
+      "context": "A unitary state is a form of government where a single central authority holds most of the power, with any administrative divisions exercising only powers granted by the central government.",
+      "question": "What is a unitary state?",
+      "answers": {
+        "text": ["a form of government where a single central authority holds most of the power"],
+        "answer_start": [20]
+      }
+    },
+    {
+      "context": "Sovereignty refers to the supreme authority within a territory, meaning that a state has the ultimate power to govern itself without external interference.",
+      "question": "What is sovereignty?",
+      "answers": {
+        "text": ["the supreme authority within a territory, meaning that a state has the ultimate power to govern itself without external interference"],
+        "answer_start": [24]
+      }
+    },
+    {
+      "context": "Pluralism is the recognition and affirmation of diversity within a political body, which permits peaceful coexistence of different interests and values.",
+      "question": "What is pluralism?",
+      "answers": {
+        "text": ["the recognition and affirmation of diversity within a political body, which permits peaceful coexistence of different interests and values"],
+        "answer_start": [13]
+      }
+    },
+    {
+      "context": "Political culture encompasses the shared attitudes, values, and beliefs about politics and government within a society.",
+      "question": "What is political culture?",
+      "answers": {
+        "text": ["the shared attitudes, values, and beliefs about politics and government within a society"],
+        "answer_start": [28]
+      }
+    },
+    {
+      "context": "Civil society refers to the network of voluntary associations and organizations that exist independently of the government, playing a role in fostering community and influencing public policy.",
+      "question": "What is civil society?",
+      "answers": {
+        "text": ["the network of voluntary associations and organizations that exist independently of the government, playing a role in fostering community and influencing public policy"],
+        "answer_start": [23]
+      }
+    },
+    {
+      "context": "A regime is the form or system of government in a state, often used to describe authoritarian or transitional governments.",
+      "question": "What is a regime?",
+      "answers": {
+        "text": ["the form or system of government in a state, often used to describe authoritarian or transitional governments"],
+        "answer_start": [11]
+      }
+    },
+    {
+      "context": "Consociational democracy is a power-sharing arrangement in which various segments of society, often divided by ethnicity or religion, participate collectively in governance.",
+      "question": "What is consociational democracy?",
+      "answers": {
+        "text": ["a power-sharing arrangement in which various segments of society, often divided by ethnicity or religion, participate collectively in governance"],
+        "answer_start": [30]
+      }
+    },
+    {
+      "context": "A hybrid regime exhibits characteristics of both democratic and authoritarian systems, often with contested elections and limited political freedoms.",
+      "question": "What is a hybrid regime?",
+      "answers": {
+        "text": ["characteristics of both democratic and authoritarian systems, often with contested elections and limited political freedoms"],
+        "answer_start": [22]
+      }
+    },
+    {
+      "context": "Legitimacy in political science refers to the general belief that a government has the right to rule, based on factors like tradition, law, or consent of the governed.",
+      "question": "What is legitimacy?",
+      "answers": {
+        "text": ["the general belief that a government has the right to rule, based on factors like tradition, law, or consent of the governed"],
+        "answer_start": [38]
+      }
+    },
+    {
+      "context": "Political participation is the various ways in which citizens engage with the political process, including voting, protests, and civic activism.",
+      "question": "What is political participation?",
+      "answers": {
+        "text": ["the various ways in which citizens engage with the political process, including voting, protests, and civic activism"],
+        "answer_start": [28]
+      }
+    },
+    {
+      "context": "Civil liberties are individual rights protected by law from unjust governmental or other interference.",
+      "question": "What are civil liberties?",
+      "answers": {
+        "text": ["individual rights protected by law from unjust governmental or other interference"],
+        "answer_start": [17]
+      }
+    },
+    {
+      "context": "Civil rights are the rights of citizens to political and social freedom and equality.",
+      "question": "What are civil rights?",
+      "answers": {
+        "text": ["the rights of citizens to political and social freedom and equality"],
+        "answer_start": [13]
+      }
+    },
+    {
+      "context": "A constitution is a body of fundamental principles or established precedents according to which a state or other organization is acknowledged to be governed.",
+      "question": "What is a constitution?",
+      "answers": {
+        "text": ["a body of fundamental principles or established precedents according to which a state or other organization is acknowledged to be governed"],
+        "answer_start": [15]
+      }
+    },
+    {
+      "context": "Judicial review is the power of courts to assess whether a law is in compliance with the constitution.",
+      "question": "What is judicial review?",
+      "answers": {
+        "text": ["the power of courts to assess whether a law is in compliance with the constitution"],
+        "answer_start": [16]
+      }
+    },
+    {
+      "context": "A political party is an organized group of people with at least roughly similar political aims and opinions, that seeks to influence public policy by getting its candidates elected to public office.",
+      "question": "What is a political party?",
+      "answers": {
+        "text": ["an organized group of people with at least roughly similar political aims and opinions, that seeks to influence public policy by getting its candidates elected to public office"],
+        "answer_start": [18]
+      }
+    },
+    {
+      "context": "An interest group is an organized group that tries to influence public policy to benefit its members or the issues they care about.",
+      "question": "What is an interest group?",
+      "answers": {
+        "text": ["an organized group that tries to influence public policy to benefit its members or the issues they care about"],
+        "answer_start": [17]
+      }
+    },
+    {
+      "context": "A social movement is a type of group action that is focused on specific political or social issues, aiming to promote or resist change.",
+      "question": "What is a social movement?",
+      "answers": {
+        "text": ["a type of group action that is focused on specific political or social issues, aiming to promote or resist change"],
+        "answer_start": [18]
+      }
+    },
+    {
+      "context": "A referendum is a direct vote by the electorate on a particular proposal or issue.",
+      "question": "What is a referendum?",
+      "answers": {
+        "text": ["a direct vote by the electorate on a particular proposal or issue"],
+        "answer_start": [14]
+      }
+    },
+    {
+      "context": "A revolution is a forcible overthrow of a government or social order, in favor of a new system.",
+      "question": "What is a revolution?",
+      "answers": {
+        "text": ["a forcible overthrow of a government or social order, in favor of a new system"],
+        "answer_start": [14]
+      }
+    },
+    {
+      "context": "A coup d'état is a sudden, violent, and illegal seizure of power from a government.",
+      "question": "What is a coup d'état?",
+      "answers": {
+        "text": ["a sudden, violent, and illegal seizure of power from a government"],
+        "answer_start": [15]
+      }
+    },
+    {
+      "context": "Political ideology is a set of beliefs about political values and the role of government.",
+      "question": "What is political ideology?",
+      "answers": {
+        "text": ["a set of beliefs about political values and the role of government"],
+        "answer_start": [19]
+      }
+    },
+    {
+      "context": "Nationalism is an ideology that emphasizes loyalty, devotion, or allegiance to a nation or nation-state and holds that such obligations outweigh other individual or group interests.",
+      "question": "What is nationalism?",
+      "answers": {
+        "text": ["an ideology that emphasizes loyalty, devotion, or allegiance to a nation or nation-state and holds that such obligations outweigh other individual or group interests"],
+        "answer_start": [15]
+      }
+    },
+    {
+      "context": "Patron-client networks are systems in which a central authority provides benefits to supporters in exchange for loyalty and services.",
+      "question": "What are patron-client networks?",
+      "answers": {
+        "text": ["systems in which a central authority provides benefits to supporters in exchange for loyalty and services"],
+        "answer_start": [22]
+      }
+    },
+    {
+      "context": "Political socialization is the process by which individuals learn and frequently internalize a political lens framing their perceptions of how power is arranged and how the world around them is organized.",
+      "question": "What is political socialization?",
+      "answers": {
+        "text": ["the process by which individuals learn and frequently internalize a political lens framing their perceptions of how power is arranged and how the world around them is organized"],
+        "answer_start": [24]
+      }
+    },
+    {
+      "context": "A unitary system is a sovereign state governed as a single entity in which the central government is supreme.",
+      "question": "What is a unitary system?",
+      "answers": {
+        "text": ["a sovereign state governed as a single entity in which the central government is supreme"],
+        "answer_start": [17]
+      }
+    },
+    {
+      "context": "A federal system is a system of government in which entities such as states or provinces share power with a national government.",
+      "question": "What is a federal system?",
+      "answers": {
+        "text": ["a system of government in which entities such as states or provinces share power with a national government"],
+        "answer_start": [16]
+      }
+    },
+    {
+      "context": "Devolution is the statutory delegation of powers from the central government of a sovereign state to govern at a subnational level.",
+      "question": "What is devolution?",
+      "answers": {
+        "text": ["the statutory delegation of powers from the central government of a sovereign state to govern at a subnational level"],
+        "answer_start": [14]
+      }
+    },
+    {
+      "context": "Globalization is the process by which businesses or other organizations develop international influence or start operating on an international scale.",
+      "question": "What is globalization?",
+      "answers": {
+        "text": ["the process by which businesses or other organizations develop international influence or start operating on an international scale"],
+        "answer_start": [16]
+      }
+    },
+    {
+      "context": "A population is the entire group of individuals or instances about whom we hope to learn.",
+      "question": "What is a population in statistics?",
+      "answers": {
+        "text": ["the entire group of individuals or instances about whom we hope to learn"],
+        "answer_start": [16]
+      }
+    },
+    {
+      "context": "A sample is a subset of a population, examined in hope of learning about the population.",
+      "question": "What is a sample in statistics?",
+      "answers": {
+        "text": ["a subset of a population, examined in hope of learning about the population"],
+        "answer_start": [14]
+      }
+    },
+    {
+      "context": "A parameter is a numerically valued attribute of a model for a population.",
+      "question": "What is a parameter in statistics?",
+      "answers": {
+        "text": ["a numerically valued attribute of a model for a population"],
+        "answer_start": [14]
+      }
+    },
+    {
+      "context": "A statistic is a value calculated from data to summarize aspects of the data.",
+      "question": "What is a statistic in statistics?",
+      "answers": {
+        "text": ["a value calculated from data to summarize aspects of the data"],
+        "answer_start": [13]
+      }
+    },
+    {
+      "context": "A categorical variable names categories and answers questions about how cases fall into those categories.",
+      "question": "What is a categorical variable?",
+      "answers": {
+        "text": ["names categories and answers questions about how cases fall into those categories"],
+        "answer_start": [23]
+      }
+    },
+    {
+      "context": "A quantitative variable is a variable in which the numbers act as numerical values; always has units.",
+      "question": "What is a quantitative variable?",
+      "answers": {
+        "text": ["a variable in which the numbers act as numerical values; always has units"],
+        "answer_start": [22]
+      }
+    },
+    {
+      "context": "A distribution gives the possible values of a variable and the relative frequency of each value.",
+      "question": "What is a distribution in statistics?",
+      "answers": {
+        "text": ["gives the possible values of a variable and the relative frequency of each value"],
+        "answer_start": [15]
+      }
+    },
+    {
+      "context": "The mean is the sum of the data divided by the count of the data.",
+      "question": "What is the mean in statistics?",
+      "answers": {
+        "text": ["the sum of the data divided by the count of the data"],
+        "answer_start": [10]
+      }
+    },
+    {
+      "context": "The median is the middle value in a data set when the values are arranged in ascending or descending order.",
+      "question": "What is the median in statistics?",
+      "answers": {
+        "text": ["the middle value in a data set when the values are arranged in ascending or descending order"],
+        "answer_start": [10]
+      }
+    },
+    {
+      "context": "The mode is the value that appears most frequently in a data set.",
+      "question": "What is the mode in statistics?",
+      "answers": {
+        "text": ["the value that appears most frequently in a data set"],
+        "answer_start": [10]
+      }
+    },
+    {
+      "context": "Range is the difference between the highest and lowest values in a data set.",
+      "question": "What is range in statistics?",
+      "answers": {
+        "text": ["the difference between the highest and lowest values in a data set"],
+        "answer_start": [10]
+      }
+    },
+    {
+      "context": "Variance is the average of the squared deviations from the mean.",
+      "question": "What is variance in statistics?",
+      "answers": {
+        "text": ["the average of the squared deviations from the mean"],
+        "answer_start": [10]
+      }
+    },
+    {
+      "context": "Standard deviation is the square root of the variance.",
+      "question": "What is standard deviation?",
+      "answers": {
+        "text": ["the square root of the variance"],
+        "answer_start": [21]
+      }
+    },
+    {
+      "context": "A z-score measures the distance of a data point from the mean in units of standard deviation.",
+      "question": "What is a z-score?",
+      "answers": {
+        "text": ["measures the distance of a data point from the mean in units of standard deviation"],
+        "answer_start": [10]
+      }
+    },
+    {
+      "context": "A percentile indicates the value below which a given percentage of observations in a group of observations falls.",
+      "question": "What is a percentile?",
+      "answers": {
+        "text": ["indicates the value below which a given percentage of observations in a group of observations falls"],
+        "answer_start": [13]
+      }
+    },
+    {
+      "context": "A boxplot is a graphical representation of data that shows the distribution's minimum, first quartile, median, third quartile, and maximum.",
+      "question": "What is a boxplot?",
+      "answers": {
+        "text": ["a graphical representation of data that shows the distribution's minimum, first quartile, median, third quartile, and maximum"],
+        "answer_start": [12]
+      }
+    },
+    {
+      "context": "A histogram is a graphical representation of the distribution of numerical data, often used to depict the frequency of data within certain intervals.",
+      "question": "What is a histogram?",
+      "answers": {
+        "text": ["a graphical representation of the distribution of numerical data, often used to depict the frequency of data within certain intervals"],
+        "answer_start": [13]
+      }
+    },
+    {
+      "context": "A scatterplot is a type of plot or mathematical diagram using Cartesian coordinates to display values for typically two variables for a set of data.",
+      "question": "What is a scatterplot?",
+      "answers": {
+        "text": ["a type of plot or mathematical diagram using Cartesian coordinates to display values for typically two variables for a set of data"],
+        "answer_start": [14]
+      }
+    },
+    {
+      "context": "Correlation measures the strength and direction of the linear relationship between two quantitative variables.",
+      "question": "What is correlation in statistics?",
+      "answers": {
+        "text": ["measures the strength and direction of the linear relationship between two quantitative variables"],
+        "answer_start": [11]
+      }
+    },
+    {
+      "context": "A regression line is a straight line that describes how a response variable y changes as an explanatory variable x changes.",
+      "question": "What is a regression line?",
+      "answers": {
+        "text": ["a straight line that describes how a response variable y changes as an explanatory variable x changes"],
+        "answer_start": [16]
+      }
+    }
+  ]
