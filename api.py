@@ -2,10 +2,10 @@ from flask import Flask, request, jsonify
 import torch
 from transformers import AutoModelForQuestionAnswering, AutoTokenizer
 
-# Load fine-tuned model & tokenizer
-model_path = "./fine_tuned_model"
-tokenizer = AutoTokenizer.from_pretrained(model_path)
-model = AutoModelForQuestionAnswering.from_pretrained(model_path)
+# Load fine-tuned model & tokenizer from Hugging Face
+model_name = "tanner01/ai-reteaching-model"  # Hugging Face model ID
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+model = AutoModelForQuestionAnswering.from_pretrained(model_name)
 
 # Set device (MPS for Mac, otherwise CPU)
 device = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
