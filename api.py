@@ -1,11 +1,13 @@
 from flask import Flask, request, jsonify
-import torch
+import os
 from transformers import AutoModelForQuestionAnswering, AutoTokenizer
 
-# Load fine-tuned model & tokenizer from Hugging Face
-model_name = "tanner01/ai-reteaching-model"  # Hugging Face model ID
-tokenizer = AutoTokenizer.from_pretrained(model_name)
-model = AutoModelForQuestionAnswering.from_pretrained(model_name)
+# Get Hugging Face token from environment variable
+huggingface_token = os.getenv("HUGGINGFACE_TOKEN")
+
+model_name = "tanner01/ai-reteaching-model"
+tokenizer = AutoTokenizer.from_pretrained(model_name, use_auth_token=huggingface_token)
+model = AutoModelForQuestionAnswering.from_pretrained(model_name, use_auth_token=huggingface_token)
 
 # Set device (MPS for Mac, otherwise CPU)
 device = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
@@ -41,7 +43,6 @@ def ask_question():
     return jsonify({"answer": predicted_answer})
 
 # Run the Flask API
-import os
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 10000))  # Get Render's assigned port or default to 5000
