@@ -1,5 +1,5 @@
 ---
-title: Ai Reteaching App
+title: Insight AI
 emoji: 🌖
 colorFrom: purple
 colorTo: blue
