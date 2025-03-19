@@ -26,35 +26,17 @@ app = Flask(__name__)
 def ask_question():
     data = request.json
     question = data.get("question", "").strip().lower()
+    
+    if not question:
+        return jsonify({"error": "Please provide a question"}), 400
 
-    # Step 1: First, check if the answer exists in class_data.json
+    # Search for a matching lesson in class_data.json
     for item in class_data:
         if question in item["question"].lower():
             return jsonify({"answer": item["answers"]["text"][0]})
+    
+    return jsonify({"error": "No matching lesson found"}), 404
 
-    # Step 2: If not found in JSON, use the model
-    context = data.get("context", "").strip()
-    if not question or not context:
-        return jsonify({"error": "Please provide both question and context"}), 400
-
-    # Tokenize input efficiently
-    inputs = tokenizer(question, context, return_tensors="pt", truncation=True, padding=True)
-    inputs = {k: v.to(device) for k, v in inputs.items()}
-
-    # Run optimized model inference
-    with torch.inference_mode():  # More efficient than torch.no_grad()
-        outputs = model(**inputs)
-
-    # Extract answer
-    answer_start = torch.argmax(outputs.start_logits)
-    answer_end = torch.argmax(outputs.end_logits) + 1
-    predicted_answer = tokenizer.convert_tokens_to_string(
-        tokenizer.convert_ids_to_tokens(inputs["input_ids"][0][answer_start:answer_end])
-    )
-
-    return jsonify({"answer": predicted_answer})
-
-# Run the Flask API
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 10000))  # Get Render's assigned port or default to 10000
     app.run(host="0.0.0.0", port=port)
